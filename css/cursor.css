@@ -37,19 +37,6 @@ body * {
     margin: -135px 0 0 -135px;
 }
 
-.content {
-    top: 0;
-    left: 0;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background: #fff;
-    mix-blend-mode: screen;
-}
-
 h1 {
     color: #000;
     margin: 0;
