@@ -5,5 +5,6 @@ window.onload = function () {
 
 //MOUSE
 new kursor({
-    type: 1
+    type: 1,
+    color: '#277BC0',
 })
