@@ -24,15 +24,7 @@ body{
     background-color: #fff;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.container .model{
+.model{
     width: var(--model-width);
     height: 100vh;
     position: fixed;
@@ -40,7 +32,7 @@ body{
     left: 0;
 }
 
-.container .sections{
+.sections{
     margin-left: var(--model-width);
     display: flex;
     flex-direction: column;
@@ -64,17 +56,14 @@ body{
 
 /*RESPONSIVE*/
 @media screen and (max-width: 900px){
-    .container{
-        flex-direction: column;
-    }
-    .container .model{
+    .model{
         width: 100%;
         height: 90vh;
         position: absolute;
         top: 0;
         left: 0;
     }
-    .container .sections{
+    .sections{
         margin-left: 0;
         width: 100%;
     }
