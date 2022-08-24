@@ -43,7 +43,6 @@ body, body * {
 
 .sections section{
     height: 100vh;
-    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
     align-items: center;
