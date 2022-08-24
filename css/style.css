@@ -1,6 +1,10 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+:root{
+    --model-width: 500px;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -10,7 +14,7 @@
 }
 
 .container .model{
-    width: 600px;
+    width: var(--model-width);
     height: 100vh;
     position: fixed;
     top: 0;
@@ -18,7 +22,7 @@
 }
 
 .container .sections{
-    margin-left: 600px;
+    margin-left: var(--model-width);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,4 +41,28 @@
 
 #intro{
     background-color: #f57070;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 900px){
+    .container{
+        flex-direction: column;
+    }
+    .container .model{
+        width: 100%;
+        position: static;
+    }
+    .container .sections{
+        margin-left: 0;
+        width: 100%;
+    }
+    .sections section{
+        height: 100vh;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+    }
 }
