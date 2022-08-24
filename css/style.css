@@ -6,7 +6,8 @@
     --model-width: 500px;
 }
 
-body{
+body, body * {
+    cursor: none;
     position: relative;
     overflow-x: hidden;
 }
