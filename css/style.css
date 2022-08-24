@@ -8,7 +8,7 @@
 
 body{
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #loader{
@@ -38,7 +38,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: scroll    ;   
 }
 
 .sections section{
