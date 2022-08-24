@@ -52,6 +52,9 @@ body, body * {
     mix-blend-mode: screen;
 }   
 
+.sections section *{
+    overflow: hidden;
+}
 /*RESPONSIVE*/
 @media screen and (max-width: 900px){
     .model{
